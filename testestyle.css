@@ -30,7 +30,7 @@ nav {
 }
 
 main {
-  background: url("/Imagens/fundo.jpg") no-repeat center center;
+  background: url("./Imagens/fundo.jpg") no-repeat center center;
   background-size: cover;
   height: 92vh;
 
