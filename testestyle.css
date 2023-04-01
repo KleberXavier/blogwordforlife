@@ -64,6 +64,11 @@ header p{
   transition: 0.3s;
 }
 @media (max-width: 900px) {
+  main {
+    background: url("./Imagens/fundoCel.png") no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+  }
   body {
     overflow-x: hidden;
   }
@@ -168,9 +173,21 @@ header p{
 
 }
 .container4 {
-  display: flex;
   width: 100%;
-  height: 60%;
-  margin: 11em 0;
+}
+.imgMsg1{
+  width: 100%;
+}
+.titleContainer4{
+  width: 100%;
+  margin: 0 0 1em 0;
+}
+.autor{
+  font-size: 30px;
+
+}
+.descContainer4{
+  width: 100%;
+  margin: 0 10% 0 10%;
 }
 }

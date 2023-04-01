@@ -60,7 +60,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 4%0 0%;
+    margin: 4% 0%;
 }
 .textcontainer3{
     font-family: 'Montserrat', sans-serif;
@@ -76,9 +76,10 @@ body{
 
 .container4{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     height: 50%;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
     margin: 3em 0;
     
@@ -88,22 +89,30 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     text-align: center;
-    margin: 1% 0;
+    margin: 1em 0;
     color: #676767;
+    width: 100%;
 }
 
 .descContainer4{
     display: flex;
+    flex-wrap: wrap;
+    width: 50%;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.3em;
-    margin: 0 10% 0 10%;
+    font-size: 1.5em;
+    margin: 0 0% 0 10%;
     text-align: justify;
     color: #888888;
     align-items: center;
 }
 .imgMsg1 {
-    width: 60%;
+    width: 40%;
+    flex-wrap: wrap;
+    display: flex;
 
+}
+.imgAutor{
+    width: 100%;
 
 }
 .rodape{
