@@ -21,6 +21,8 @@ a:hover {
 }
 
 nav {
+  width: 100vw;
+  position: fixed;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -64,6 +66,7 @@ header p{
   transition: 0.3s;
 }
 @media (max-width: 900px) {
+
   main {
     background: url("./Imagens/fundoCel.png") no-repeat center center;
     background-size: cover;
