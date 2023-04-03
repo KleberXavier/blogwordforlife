@@ -27,14 +27,14 @@ nav {
   justify-content: space-around;
   align-items: center;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  background: #ffffff;
+  background: #ffffffab;
   height: 8vh;
 }
 
 main {
   background: url("./Imagens/fundo.png") no-repeat center center;
   background-size: cover;
-  height: 92vh;
+  height: 100vh;
 
 }
 header p{
@@ -74,6 +74,7 @@ header p{
   }
   body {
     overflow-x: hidden;
+    background-size: initial;
   }
   header p{
     padding: 76% 17%;
