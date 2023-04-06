@@ -34,16 +34,16 @@ body{
     border-radius: 20px;
 }
 .title{
-    font-size: 26px;
+    font-size: 24px;
     font-family: 'Montserrat', sans-serif;
-    color: #003f72;
+    color: #000000;
     text-align: center;
     margin-bottom:2em;
 }
 .msg{
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
-    color:#003f72;
+    color:#000000;
 
 
 }
