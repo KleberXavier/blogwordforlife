@@ -21,6 +21,7 @@ body{
 .containerMsg2{
     margin: 0 10% 0 0%;
     font-size: 24px;
+    width: 60%
 }
 .devocional1{
     margin-top: 10%;
@@ -29,7 +30,7 @@ body{
 }
 .imgMsg {
     display: flex;
-    width: 80%;
+    width: 60%;
     height: 100%;
     border-radius: 20px;
 }
@@ -75,7 +76,10 @@ body{
     width: 100%;
     text-align: center;
 }
-
+.louvor iframe{
+    width:60%;
+    height: 450px;
+}
 .container4{
     display: flex;
     flex-wrap: wrap;
